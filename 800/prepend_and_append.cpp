@@ -1,12 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <set>
-#include <unordered_map>
-#include <map>
-#include <unordered_map>
-#include <algorithm>
-#include <cmath>
-#include <utility>
+#include <bits/stdc++.h>
 using namespace std;
 
 void solve(){
@@ -14,15 +6,16 @@ void solve(){
     string s; cin >> s;
 
     int l = 0;
-    int r = s[s.size()-1];
+    int r = s.size()-1;
 
-    while(s[l] != s[r] && l<r){
+    while(l<r && s[l] != s[r]){
         l++;
         r--;
     }
 
     if(l==r) cout << 1 << endl;
-    else cout << r-l << endl;
+    else if (l>r) cout << 0 << endl;
+    else cout << r-l + 1 << endl;
     return;
 }
 
