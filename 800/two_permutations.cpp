@@ -12,25 +12,10 @@
 using namespace std;
 
 void solve(){
-    int n; cin >> n; vector<int> nums(n);
+    int n,a ,b; cin >> n >> a; vector<int> nums(n);
     for(int& el : nums) cin >> el;
 }
 
 int main(){
     int t; cin >> t; while(t--) solve();
 }
-
-/*
-
-#include <bits/stdc++.h>
-using namespace std;
-
-void solve(){
-    int n; cin >> n; vector<int> nums(n);
-    for(int& el : nums) cin >> el;
-}
-
-int main(){
-    int t; cin >> t; while(t--) solve();
-}
-*/
