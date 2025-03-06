@@ -19,6 +19,7 @@ void solve(){
     // for <<<<><<<<<
     // after the '>'; we can just print the element as 1 again and the sequence starts again
 
+    // whenever a new segment beguns, the value will be (res+)/0
     int curr = 1;
     int res = 1;
     for(int i=0; i<n-1; i++){

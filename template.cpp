@@ -9,6 +9,7 @@
 #include <string>
 #include <cctype>
 #include <utility>
+#include <numeric>
 using namespace std;
 
 void solve(){
