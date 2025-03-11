@@ -12,6 +12,8 @@
 #include <numeric>
 using namespace std;
 
+#define nl "\n"
+
 inline void solve(){
     int n; cin >> n; vector<int> nums(n);
     for(int& el : nums) cin >> el;
