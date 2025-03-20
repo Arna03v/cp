@@ -13,13 +13,14 @@
 using namespace std;
 
 #define nl "\n"
+#define int long long
 
 inline void solve(){
     int n; cin >> n; vector<int> nums(n);
     for(int& el : nums) cin >> el;
 }
 
-int main(){
+signed main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
