@@ -10,6 +10,7 @@
 #include <cctype>
 #include <utility>
 #include <numeric>
+#include <sstream>
 using namespace std;
 
 #define nl "\n"
