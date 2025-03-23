@@ -73,7 +73,7 @@ void solve2(){
     } 
 
     // gcd (a,b) = gcd (a-b,b) when a > b
-    // the value 1-b stays same no matter how many operations we apply
+    // the value a-b stays same no matter how many operations we apply
     // we can change value of b to a multiple of a-b to get a gcd = a-b
     // we need to make b a multiple of a-b in minimum number of steps
     // can either decrease b or increase b
