@@ -4,7 +4,6 @@ This repository contains the solutions to the codeforces problems I am solving. 
 - Two permutations 
 
 [List of problems for 900]( https://www.tle-eliminators.com/cp-sheet)
-- Longest divisors interval
 - NIT destroys the universe
 - sum of medians
 
