@@ -7,7 +7,8 @@
         "iostream": "cpp",
         "cmath": "cpp",
         "utility": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "cctype": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
