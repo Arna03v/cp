@@ -3,7 +3,7 @@
 #include <set>
 #include <unordered_map>
 #include <map>
-#include <unordered_map>
+#include <unordered_set>
 #include <algorithm>
 #include <cmath>
 #include <string>
@@ -15,6 +15,7 @@ using namespace std;
 
 #define nl "\n"
 #define int long long
+#define zz "res is : " << 
 
 void solve(){
     int n; cin >> n; vector<int> nums(n);
