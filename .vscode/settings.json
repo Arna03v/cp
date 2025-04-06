@@ -8,7 +8,8 @@
         "cmath": "cpp",
         "utility": "cpp",
         "ios": "cpp",
-        "cctype": "cpp"
+        "cctype": "cpp",
+        "unordered_set": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
