@@ -64,7 +64,7 @@ void solve(){
 
     int ans = accumulate(res.begin(), res.end(), 0LL) - *min_element(res.begin(), res.end()) + mini;
 
-    cout << "res is : " << ans << nl;
+    cout << ans << nl;
     return;
 }
 
