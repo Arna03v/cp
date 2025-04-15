@@ -50,7 +50,6 @@ void solve(){
     for(int i=(1<<k); i<n; i++)cout << i << " ";
     cout << nl;
 
-
 }
 
 signed main(){
