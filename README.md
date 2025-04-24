@@ -7,4 +7,7 @@ This repository contains the solutions to the codeforces problems I am solving. 
 - NIT destroys the universe
 - sum of medians
 
+[List of problems for 1000](https://www.tle-eliminators.com/cp-sheet)
+
+*None* :)
 
